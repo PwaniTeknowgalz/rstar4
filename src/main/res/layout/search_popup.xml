@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search parameters"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/lightred"/>
+
+   <TableRow
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="8dp"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="10dp"
+           android:text="Search"
+           android:textSize="16sp"
+           android:id="@+id/searchtitle"
+           android:layout_gravity="center_vertical"
+           android:textColor="#000" />
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/searchterm"
+           android:layout_weight="0.8"
+           android:hint="Search for..."
+           android:layout_gravity="center_vertical" />
+   </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:id="@+id/buttoncancel"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_bg"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="@color/white"
+            android:id="@+id/buttonsearch"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_bg"/>
+    </TableRow>
+
+</LinearLayout>

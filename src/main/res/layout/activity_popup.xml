@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETAILS"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/lightred"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/photo"
+        android:src="@drawable/btn_bg"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name"
+                    android:id="@+id/textVie2"
+                    android:gravity="top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/name"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:text="nnnnnnn"
+                    android:layout_marginLeft="10dp"
+
+                    android:layout_marginTop="4dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Location"
+                    android:id="@+id/textView2"
+                    android:gravity="top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="KSH. 0.00"
+                    android:id="@+id/location"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4"
+                    android:gravity="top"
+                    android:text="Price" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Large Text"
+                    android:id="@+id/price"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.8" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:layout_marginTop="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView5"
+                    android:gravity="top"
+                    android:text="Waste Type" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Large Text"
+                    android:id="@+id/wastetype"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.8" />
+            </TableRow>
+
+
+        </TableLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ccc"
+            android:layout_marginTop="4dp"></View>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/call"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Call"/>
+            <Button
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Text"/>
+
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/cancel"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancel"/>
+
+
+
+        </TableRow>
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

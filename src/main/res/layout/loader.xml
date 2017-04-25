@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLEASE WAIT..."
+        android:textColor="@color/white"
+        android:background="@color/lightred"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/loaderheading"
+        android:textAlignment="center" />
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avloadingIndicatorView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:indicator="BallGridBeat"
+        app:indicator_color="@color/lightred"
+        android:layout_below="@+id/loaderheading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadingtext"
+        android:gravity="center"
+android:layout_below="@+id/avloadingIndicatorView"
+        android:text="Processing..."
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/loadingtext"
+        android:background="@android:color/transparent"></View>
+</RelativeLayout>

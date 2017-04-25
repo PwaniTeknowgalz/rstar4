@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/MaterialDrawerTheme.Light.DarkToolbar">
+        <item name="colorControlNormal">#b2b2b2</item>
+        <item name="colorControlActivated">@color/lightred</item>
+        <item name="colorControlHighlight">@color/lightred</item>
+        <item name="material_drawer_selected_text">@color/lightred</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/md_red_600</item>
+        <item name="colorPrimaryDark">@color/md_red_900</item>
+    </style>
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/lightred</item></style>
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
